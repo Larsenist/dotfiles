@@ -16,7 +16,6 @@ alias xquery='xbps-query -Rs'
 alias xupdate='sudo xbps-install -Su'
 alias xremove='sudo xbps-remove -R'
 alias xinstalled='xbps-query -l'
-alias updatediscord='cd /home/larsen/src/void-packages/ && ./xbps-src binary-bootstrap && echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf && ./xbps-src pkg discord && cd ~'
 alias systemctl='printf "You'\''re not using systemd, dumbass\nEnable with:  ln -s /etc/sv/<service> /var/service/\nDisable with: rm /var/service/<service>\nNot working:  " && echo '
 alias alternatives='printf "Switch between different package versions with xbps-alternatives. Here'\''s an example with Java\nList package versions: xbps-alternatives -l -g java\nSet package version:   sudo xbps-alternatives -g java -s openjdk17-jre\n"'
 
